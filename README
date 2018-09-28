@@ -1,2 +1,3 @@
 This project uses Thomson Reuters Elektron EMA API to contribute specific market data to Eikon. 
 Contributed data is fetched from Market Tracker TOF some rules are applied before posting Eikon.
+Some of the rules are implemented on the /resources/config/config.chigo file.
