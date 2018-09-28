@@ -1,0 +1,20 @@
+#configuration file
+#TOF configurations
+TOF_IP=10.3.20.200
+TOF_PORT=2508
+TCID=CBTX
+#ADS configuration setting
+ADS1_IP=10.223.73.124:14005
+ADS1_PORT=14005
+ADS2_IP=10.3.20.201:14002
+ADS2_PORT=14002
+ADSuser=chigozirim.kawa
+#Price lower limit setting
+price_lower=290
+#Application daily restart time
+restart_time=1
+#Contributed RICs
+RIC1=NGNT=CHIGO
+RIC2=NGNT=ADOU
+#Contribution Service
+cont_service=MLIP

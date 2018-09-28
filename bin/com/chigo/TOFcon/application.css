@@ -1,0 +1,57 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#cbtn{
+	-fx-font-size: 30px ;
+	-fx-background-color: rgba(255,355,255,.60);
+	
+	-fx-text-fill: #000080;
+	-fx-padding:6 6 6 6;
+	-fx-border-radius:8;
+	-fx-font-weight: bold;
+	
+}
+#lb1{
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+	
+	
+}
+
+#lb4{
+	/*-fx-background-color: linear-gradient(#fffff0, #ffff00);/*
+	/*-fx-font-size: 12px;/*
+	-fx-font-weight: bold;
+	-fx-alignment: CENTER;
+	
+	-fx-effect: dropshadow( gaussian , rgba(125,255,255,0.5) , 0,0,1,1 );
+	
+	
+}
+#lb5{
+	/*-fx-background-color: linear-gradient(#fffff0, #ffff00);/*
+	/*-fx-font-size: 13px;/*
+	-fx-font-weight: bold;
+	-fx-alignment: CENTER;
+    /*-fx-text-fill:red  ;/*
+	
+	
+	
+	
+}
+#lb6{
+	/*-fx-background-color: linear-gradient(#fffff0, #ffff00);/*
+	/*-fx-font-size: 13px;/*
+	-fx-font-weight: bold;
+	-fx-alignment: CENTER;
+   /* -fx-text-fill:red  ;/*
+	
+	
+	
+	
+}
+.root{
+	
+	/* -fx-background-image: url("tr.jpg"); */
+}

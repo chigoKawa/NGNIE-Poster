@@ -1,0 +1,116 @@
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart run
+INFO: NGNIE Poster App
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart run
+INFO: STARTING..
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.configProps getValues
+INFO: TCID is CBTX
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.connector Connect
+INFO: Connecting to 10.3.20.200 on port 2508
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.connector Connect
+INFO: Just connected to /10.3.20.200:2508
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.connector setupStreams
+INFO: setting up Streams..
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.configProps getValues
+INFO: TCID is CBTX
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.configProps getValues
+INFO: TCID is CBTX
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart sendRequest
+INFO: Sending request to TCID >: CBTX
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message length is : ) 119
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message from TOF : 340<US>KC<GS>CBTX#INFO<US>500<US>0<RS>533<US>CBTX#11562<RS>534<US> 1 MAR 2018<RS>535<US>12:43:03<RS>536<US>CBTX#15561<RS>537<US> 7 SEP 2018<RS>538<US>14:28:30<RS>558<US>3.41
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Last ticket number! : 15561
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.configProps getValues
+INFO: TCID is CBTX
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart sendRequest2
+INFO: Last ticket Number is >:  15561
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart sendRequest2
+INFO: Requesting ::  CBTX>15561
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message length is : ) 0
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message from TOF : 
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: TOF message is short but, I'll wait.. String index out of range: 10
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message length is : ) 895
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Received Message from TOF : 340<US>KC<GS>CBTX#15561<US>501<US>0<RS>134<US> <RS>317<US> <RS>318<US> <RS>319<US> <RS>320<US> <RS>321<US> <RS>322<US> <RS>328<US> <RS>436<US> <RS>441<US> <RS>500<US>3<RS>501<US>10219<RS>502<US> 7 SEP 2018<RS>503<US>14:22:11<RS>504<US>QAZ<RS>505<US> 7 SEP 2018<RS>506<US>14:28:30<RS>507<US>QAZ<RS>508<US>FCMB<RS>509<US>FIRST CITY MER BANK <RS>510<US> <RS>511<US> <RS>513<US> <RS>514<US>2<RS>515<US>4<RS>517<US>USD<RS>518<US>NGN<RS>519<US>20000.00<RS>522<US>306.70<RS>524<US>1<RS>525<US>11 SEP 2018<RS>526<US>11 SEP 2018<RS>529<US>TOL<RS>530<US> <RS>539<US> <RS>540<US>6<RS>541<US>1.0000<RS>542<US>305.70<RS>543<US> <RS>544<US> <RS>545<US>6134000.00<RS>549<US>Qobani<RS>550<US>Qobani<RS>551<US>CBTX<RS>552<US>10219<RS>553<US> <RS>561<US>User Info #1<RS>562<US> <RS>563<US>User Info #2<RS>564<US> <RS>565<US>User Info #3<RS>566<US>OF<RS>567<US>CBTX#0<RS>568<US>CBTX#0<RS>569<US>2<RS>573<US>1<RS>575<US> <RS>576<US> <RS>579<US> <RS>580<US> <RS>581<US> <RS>582<US> <RS>583<US> <RS>584<US> <RS>585<US>PRBK485434FCMB1809071422<RS>595<US>1<RS>596<US> <RS>597<US> <RS>598<US> <RS>599<US> <RS>698<US> <RS>699<US> <RS>15303<US>DoddFrankAct_OffFacility<RS>15308<US> <RS>15317<US>PROVIDUS BANK PLC<RS>15318<US> <RS>15319<US> <RS>15320<US> <RS>15328<US> <RS>15329<US> <RS>15330<US> <RS>15331<US>TOLU<RS>15332<US>Tolulope Akinpelu<RS>15336<US>549300NXJY4OU385R675PRBK485434FCMB1809071422L0<RS>15337<US> <RS>15338<US> <RS>15339<US> <RS>15426<US>TAKER
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart getFieldData
+INFO: FID data : |  306.70
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: updating  price array : [306.7]
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart getFieldData
+INFO: FID data : |  20000.00,522:30
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart getFieldData
+INFO: FID data : |  2
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: volume message contains comma  20000.00  
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: volun 20000   :0.02
+Sep 10, 2018 2:26:11 PM com.chigo.TOFcon.TOFstart setLast
+INFO: Creating double value for volume and dividing by 1000000; 0volray badT0.02
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.Consumer run
+INFO: volume that will be posted is > : 0.02
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.Consumer run
+INFO: Starting Initial Contribution to Eikon.. 
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.AppClient postMessage
+INFO: About to POST message ... > 
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.AppClient onRefreshMsg
+INFO: RefreshMsg
+    streamId="1"
+    domain="Login Domain"
+    solicited
+    RefreshComplete
+    state="Open / Ok / None / 'Login accepted by host chigoux2.'"
+    itemGroup="00 00"
+    name="chigozirim.kawa"
+    nameType="1"
+    Attrib dataType="ElementList"
+        ElementList
+            ElementEntry name="AllowSuspectData" dataType="UInt" value="1"
+            ElementEntry name="ApplicationId" dataType="Ascii" value="NGNIE Poster"
+            ElementEntry name="ApplicationName" dataType="Ascii" value="ADS"
+            ElementEntry name="Position" dataType="Ascii" value="192.168.99.1/CHIGO1"
+            ElementEntry name="ProvidePermissionExpressions" dataType="UInt" value="1"
+            ElementEntry name="ProvidePermissionProfile" dataType="UInt" value="0"
+            ElementEntry name="SingleOpen" dataType="UInt" value="1"
+            ElementEntry name="SupportEnhancedSymbolList" dataType="UInt" value="1"
+            ElementEntry name="SupportOMMPost" dataType="UInt" value="1"
+            ElementEntry name="SupportPauseResume" dataType="UInt" value="0"
+            ElementEntry name="SupportStandby" dataType="UInt" value="0"
+            ElementEntry name="SupportBatchRequests" dataType="UInt" value="7"
+            ElementEntry name="SupportViewRequests" dataType="UInt" value="0"
+            ElementEntry name="SupportOptimizedPauseResume" dataType="UInt" value="0"
+        ElementListEnd
+    AttribEnd
+RefreshMsgEnd
+
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.AppClient onRefreshMsg
+INFO: Open / Ok / None / 'Login accepted by host chigoux2.'
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.AppClient postMessage
+INFO: Volume size LESS than 5 ... > 0.02
+Sep 10, 2018 2:26:12 PM com.chigo.TOFcon.AppClient onAckMsg
+INFO: AckMsg
+    streamId="1"
+    domain="MarketPrice Domain"
+    ackId="1"
+    text="(0) Insert Successful"
+    name="NGNT=CHIGO"
+    nameType="1"
+    serviceId="361"
+AckMsgEnd
+
+Sep 10, 2018 2:26:13 PM com.chigo.TOFcon.AppClient onAckMsg
+INFO: AckMsg
+    streamId="1"
+    domain="MarketPrice Domain"
+    ackId="2"
+    text="(0) Insert Successful"
+    name="NGNT=ADOU"
+    nameType="1"
+    serviceId="361"
+AckMsgEnd
+
