@@ -1,6 +1,7 @@
-.*- This project uses Thomson Reuters Elektron EMA API to contribute specific market data to Eikon. 
-.*- Contributed data is fetched from Market Tracker TOF some rules are applied before posting Eikon.
-.*- Some of the rules are implemented on the /resources/config/config.chigo file.
-.*- This will connect to a Thomson Reuters TOF server, using TCID and specified port, fetch the lastest ticket number and ticket details.
-.*- It will get the required information from the ticket, which will be the Price, volume and deal direction.
-<.*- The price is analyzed using the rules and published to a given Thomson Reuter RIC.>
+*- This project uses Thomson Reuters Elektron EMA API to contribute specific market data to Eikon. 
+*- Contributed data is fetched from Market Tracker TOF some rules are applied before posting Eikon.
+*- Some of the rules are implemented on the /resources/config/config.chigo file.
+*- This will connect to a Thomson Reuters TOF server, using TCID and specified port, fetch the lastest ticket number and ticket details.
+*- It will get the required information from the ticket, which will be the Price, volume and deal direction.
+*- The price is analyzed using the rules and published to a given Thomson Reuter RIC.
+*- a simple GUI is implemented with one button.
